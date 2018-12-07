@@ -10,7 +10,7 @@ def flatify(json):
                 c+=1
         elif type(data) is dict:
             for k,v in data.items():
-                engine(v, header+'.'+k)
+                engine(v, header+k+',')
         
         else:
             row[header]=data
