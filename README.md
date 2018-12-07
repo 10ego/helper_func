@@ -1,1 +1,1 @@
-# Useful helper functions I end up writing and re-using for various tasks.
+### Collection of useful helper functions I wrote which I end up re-using for various tasks.
