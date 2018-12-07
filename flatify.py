@@ -6,7 +6,7 @@ def flatify(json):
         if type(data) is list:
             c=0
             for obj in data:
-                engine(obj, '{}[{}]_'.format(header,str(c)))
+                engine(obj, '{}[{}]'.format(header,str(c)))
                 c+=1
         elif type(data) is dict:
             for k,v in data.items():
