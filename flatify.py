@@ -20,3 +20,11 @@ def flatify(json):
     row={}
     engine(json)
     return row
+
+
+#Recursively replaces double spacing with single spacing
+
+def recursive_spaces(text):
+    if '  ' in text:
+        text = recursive_spaces(text.replace('  ', ' '))
+    return text
